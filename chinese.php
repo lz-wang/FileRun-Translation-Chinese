@@ -1,8 +1,8 @@
-<?php return array(
+<?php return array (
     'trans' =>
-        array(
+        array (
             'Login Page' =>
-                array(
+                array (
                     'Username' => '用户名',
                     'Password' => '密码',
                     'Language' => '语言',
@@ -33,7 +33,7 @@
                     'Authentication should be made with the remote system.' => '应使用远程系统进行身份验证。',
                 ),
             'User Registration' =>
-                array(
+                array (
                     'User Registration' => '用户注册',
                     'Username' => '用户名',
                     'E-mail address' => '电子邮箱地址',
@@ -68,7 +68,7 @@
                     'Please type the phone number' => '请输入电话号码',
                 ),
             'Password Reset' =>
-                array(
+                array (
                     'The login information has been sent to your email address.' => '登录信息已发送到您的电子邮箱',
                     'Password Reset' => '密码重置',
                     'E-mail address' => '电子邮箱地址',
@@ -80,7 +80,7 @@
                     'Sign in' => '登陆',
                 ),
             'Main Interface' =>
-                array(
+                array (
                     'The file is already in the download cart' => '这个文件已经位于你的 等待下载 列表',
                     'Rating' => '评分',
                     'Please check your network connection.' => '请检查你的网络连接',
@@ -114,6 +114,7 @@
                     'Tools' => '工具',
                     'List view' => '详细视图',
                     'Refresh' => '刷新',
+                    'Options' => '选项',
                     'New File' => '新建文件',
                     'New tab' => '新标签',
                     'Space:' => '容量:',
@@ -159,6 +160,7 @@
                     'Sort Descending' => '降序排列',
                     'Columns' => '列',
                     'Reset Columns' => '重置列',
+                    'Listing' => '共计',
                     '%1 items' => '%1个项目',
                     'Opening popup window... <br>Click <a href="%1" target="_blank">here</a> if the browser prevents it from opening.' => '正在打开窗口... <br>如果打开窗口失败，请点击 <a href="%1" target="_blank">这里</a>',
                     'Moving files...' => '移动文件...',
@@ -283,8 +285,7 @@
                     'Previous' => '返回',
                     'Close' => '关闭',
                     'Zoom' => '放大',
-                    '%1/%2' => '%1/%2
-',
+                    '%1/%2' => '%1/%2',
                     'First page' => '第一页',
                     'Page %1' => '页 %1',
                     'You are required to change your password.' => '你需要更改你的密码',
@@ -300,8 +301,7 @@
                     'An error occurred while trying to process the request.' => '尝试处理请求时发生错误',
                     'Resume' => '恢复',
                     'Delete folder?' => '是否确认删除文件夹？',
-                    'Please enter a new name for the item:' => '请为该项目取一个新名称：
-',
+                    'Please enter a new name for the item:' => '请为该项目取一个新名称：',
                     'Are you sure you want to move the folder?' => '你确定要移动文件夹吗？',
                     'Move folder?' => '是否确认移动文件夹？',
                     'Web link' => '共享链接',
@@ -318,6 +318,7 @@
                     'Search options' => '搜索选项',
                     'Create new folder' => '创建新目录',
                     'This field is required' => '这是必填项',
+                    'Collections' => '收藏夹',
                     'Photos' => '照片',
                     'Uploading...' => '上传中...',
                     'Help' => '帮助',
@@ -327,8 +328,10 @@
                     'Detailed list' => '详细列表',
                     'Thumbnails' => '缩略图',
                     'Last taken' => '最近拍摄的',
-                    'By date' => '按 日期 分组',
-                    'By tag' => '按 标签 分组',
+                    'Albums' => '合辑',
+                    'Last uploaded' => '最近更新',
+                    'By date' => '按日期分组',
+                    'By tag' => '按标签分组',
                     'Music' => '音乐',
                     'Last added' => '最近添加的',
                     'By artist' => '按 艺术家 分组',
@@ -350,7 +353,7 @@
                     'Tag selected' => '已选择标记',
                 ),
             'General' =>
-                array(
+                array (
                     'One file successfully copied.' => '文件成功复制',
                     'Folder successfully moved.' => '文件夹移动成功',
                     'One minute ago' => '大于1分钟',
@@ -504,7 +507,7 @@
                     'Please type a new file name!' => '请输入新的文件名称！',
                 ),
             'DateTime' =>
-                array(
+                array (
                     'This month' => '本月',
                     'January' => '一月',
                     'February' => '二月',
@@ -546,7 +549,7 @@
                     'Dec' => '十二月',
                 ),
             'Trash' =>
-                array(
+                array (
                     'A file or folder already exists at the original location.' => '已存在该恢复路径.',
                     'One item permanently deleted.' => '1 个项目被永久删除',
                     'No items were restored!' => '没有项目被恢复!',
@@ -557,7 +560,7 @@
                     '%1 items permanently deleted.' => '%1 个项目被永久删除',
                 ),
             'Account Settings' =>
-                array(
+                array (
                     'Current password' => '当前密码',
                     'New password' => '新密码',
                     'Confirm new password' => '确认新密码',
@@ -598,7 +601,7 @@
                     'Phone' => '电话',
                 ),
             'File Upload' =>
-                array(
+                array (
                     'File uploaded' => '文件上传成功',
                     'Failed to upload file' => '文件上传失败',
                     'Failed to create folder' => '文件夹创建失败',
@@ -613,7 +616,7 @@
                     'Failed to upload file. Please try again.' => '文件上传失败，请再试一次',
                 ),
             'E-mail Files' =>
-                array(
+                array (
                     'Done' => '完成',
                     'Please fill in "From" field!' => '请填写发件人!',
                     'Please set at least one recipient!' => '请填写收件人!',
@@ -650,7 +653,7 @@
                     'Please wait' => '请稍等',
                 ),
             'Share Files' =>
-                array(
+                array (
                     'Add guest user' => '添加访客用户',
                     'Next' => '下一个',
                     'Upload' => '上传',
@@ -678,13 +681,13 @@
                     'Add user' => '添加用户',
                 ),
             'Folder Notifications' =>
-                array(
+                array (
                     'Notification settings successfully saved' => '通知消息成功保存',
                     'Notifications for "read" actions cannot be set on shared folders.' => '无法在已共享的文件夹上设置关于“读取”行为的通知消息',
                     'No changes were made.' => '没有做出修改',
                 ),
             'Web Links' =>
-                array(
+                array (
                     'Upload' => '上传',
                     'The link has been copied to clipboard.' => '链接已经拷贝到剪切板',
                     'Loading data...' => '加载数据...',
@@ -741,17 +744,14 @@
                     'Cancel' => '取消',
                     'Display users names.' => '显示用户的名字',
                     'Download' => '下载',
-                    'Give this link to people you’re requesting files from' => '将此链接指向要请求文件的人员
-',
+                    'Give this link to people you’re requesting files from' => '将此链接指向要请求文件的人员',
                     'Download All' => '下载所有',
                     'Submit files' => '发送文件',
                     '%1 is requesting' => '%1正在请求',
                     'Only %1 will see the files you upload.' => '只有 %1 可以看见你上传的这些文件',
                     'Choose files' => '选择文件',
-                    'File request' => '文件请求
-',
-                    'Enable file request.' => '启用文件请求。
-',
+                    'File request' => '文件请求',
+                    'Enable file request.' => '启用文件请求。',
                     'Allow visitors to see and download the existing files.' => '允许访客浏览和下载存在的文件',
                     'Or drag them from your computer onto this page.' => '或者将他们从你的电脑拖动到这个页面',
                     'Who is sending the files?' => '谁在发送这些文件？',
@@ -771,7 +771,7 @@
                     'Only registered users will be able to access this link.' => '只有注册用户才能访问此链接',
                 ),
             'Files Activity Log' =>
-                array(
+                array (
                     'File moved with parent folder' => '文件与父文件夹一起移动',
                     'Folder moved with parent folder' => '文件夹与父文件夹移动',
                     'Date' => '日期',
@@ -850,7 +850,7 @@
                     'Activity log has been successfully archived!' => '活动日志已成功存档！',
                 ),
             'Metadata' =>
-                array(
+                array (
                     'You are not allowed to alter data in this shared folder.' => '您无权在此共享目录内更改数据.',
                     'Software Error: Failed to insert new path.' => '软件错误: 插入新路径失败.',
                     'File Type' => '文件类型',
@@ -864,7 +864,7 @@
                     'Changes saved' => '已保存更改',
                 ),
             'Versioning' =>
-                array(
+                array (
                     'Version' => '版本',
                     'User' => '用户',
                     'Date' => '日期',
@@ -888,7 +888,7 @@
                     'The file is already locked.' => '文件已经被锁定',
                 ),
             'Searching' =>
-                array(
+                array (
                     'File name' => '文件名',
                     'File contents' => '文件内容',
                     'Look in' => '查看',
@@ -903,15 +903,13 @@
                     'Field Value' => '字段值',
                 ),
             'Custom Actions: CloudConvert' =>
-                array(
-                    'API Key' => 'API密钥
-',
-                    'Convert "%1" to:' => '将“%1”转换为：
-',
+                array (
+                    'API Key' => 'API密钥',
+                    'Convert "%1" to:' => '将“%1”转换为：',
                     'No conversion option found for the "%1" file type.' => '找不到“%1”文件类型的转换选项。',
                 ),
             'File Comments' =>
-                array(
+                array (
                     'Author' => '作者',
                     'Comment' => '评论',
                     'Add comment' => '添加评论',
@@ -931,7 +929,7 @@
                     'Failed to remove comment from file.' => '评论删除失败.',
                 ),
             'Custom Actions: Text Editor' =>
-                array(
+                array (
                     'Text Editor' => '文本编辑器',
                     'Text File' => '创建文本文件',
                     'Untitled.txt' => '未命名.txt',
@@ -943,30 +941,24 @@
                     'Please type a file name' => '请输入文件名',
                     'Other..' => '其他..',
                     'New Text File.txt' => '新建文本文件.txt',
-                    'Would you like to reload the file using the selected charset? Any unsaved changes will be lost.' => '你想使用选定的字符集重新加载文件？任何未保存的更改都将丢失。
-',
+                    'Would you like to reload the file using the selected charset? Any unsaved changes will be lost.' => '你想使用选定的字符集重新加载文件？任何未保存的更改都将丢失。',
                     'Save and close' => '保存并关闭',
-                    'Word wrap' => '自动换行
-',
-                    'The file type is not allowed.' => '文件类型是不允许的。
-',
+                    'Word wrap' => '自动换行',
+                    'The file type is not allowed.' => '文件类型是不允许的。',
                     'Close' => '关闭',
                 ),
             'Custom Actions: Zoho' =>
-                array(
-                    'API key' => 'API密钥
-',
+                array (
+                    'API key' => 'API密钥',
                     'Zoho Editor' => 'Zoho 编辑器',
                     'Document with Zoho' => 'Zoho文档',
                     'Untitled.docx' => '未命名.docx',
                     'Blank file created successfully' => '空文件创建成功',
                 ),
             'Custom Actions: File Encryption' =>
-                array(
-                    'Path to AESCrypt' => 'AESCrypt的路径
-',
-                    'Download and install AESCrypt from <a href="%1" target="_blank">here</a>.' => '  
-从<a href="%1" target="_blank">此处</a>下载并安装AESCrypt。',
+                array (
+                    'Path to AESCrypt' => 'AESCrypt的路径',
+                    'Download and install AESCrypt from <a href="%1" target="_blank">here</a>.' => '从<a href="%1" target="_blank">此处</a>下载并安装AESCrypt。',
                     'AES File Encryption' => 'AES文件加密',
                     'Password' => '密码',
                     'Decrypt "%1"' => '解密 “%1”',
@@ -985,8 +977,9 @@
                     'Please confirm the password' => '请再次输入密码',
                 ),
             'Admin' =>
-                array(
+                array (
                     'Control Panel' => '控制面板',
+                    'Admin users' => '管理用户',
                     'Users' => '用户',
                     'Import users' => '导入用户',
                     'Activity logs' => '活动日志',
@@ -1071,13 +1064,12 @@
                     'Calculate all' => '计算全部',
                 ),
             'Admin: Setup' =>
-                array(
+                array (
                     'Music' => '音乐',
                     'Upload language file' => '上传语言文件',
                     'Application title' => '页面标题',
                     'Logo URL' => '登陆URL',
-                    'Welcome message' => '欢迎消息
-',
+                    'Welcome message' => '欢迎消息',
                     'Default display mode' => '默认查看模式',
                     'Detailed list' => '列表方式',
                     'Thumbnails' => '缩略方式',
@@ -1123,8 +1115,7 @@
                     'Metadata' => '元数据',
                     'Allow users to change their passwords.' => '允许用户修改密码.',
                     'Allow users to import e-mail attachments.' => '允许用户导入E-mail附件',
-                    'Number of old versions to keep for each file' => '为每个文件保留的旧版本数量
-',
+                    'Number of old versions to keep for each file' => '为每个文件保留的旧版本数量',
                     'Redirect URL after logout' => '注销后重定向URL',
                     'Users quota warning level' => '用户配额报警级别',
                     'Settings successfully saved.' => '设置已保存',
@@ -1138,8 +1129,7 @@
                     'Example list:' => '示例:',
                     'Settings saved' => '设置已保存',
                     'Title' => '登陆界面标题',
-                    'Blocked file types' => '阻止的文件类型
-',
+                    'Blocked file types' => '阻止的文件类型',
                     'User Logout' => '用户登出',
                     'Enable <a href="http://en.wikipedia.org/wiki/CAPTCHA" target="_blank">CAPTCHA</a>.' => '启用<a href="http://en.wikipedia.org/wiki/CAPTCHA" target="_blank">CAPTCHA</a>.',
                     'Default groups' => '默认组',
@@ -1183,43 +1173,26 @@
                     'Passwords should not contain keyboard row sequences' => '密码不应该包含键盘行序列',
                     'Example sequences:' => '示例序列：',
                     'Prevent user information to be used as part of the password' => '防止将用户信息用作密码的一部分',
-                    'Number of days users can use the same passwords' => '用户可以使用相同密码的天数
-',
-                    'The users will be asked to change their passwords at this interval.' => '用户将被要求在此间隔更改密码。
-',
+                    'Number of days users can use the same passwords' => '用户可以使用相同密码的天数',
+                    'The users will be asked to change their passwords at this interval.' => '用户将被要求在此间隔更改密码。',
                     'Third-party authentication' => '第三方认证',
                     'Enabled plugin' => '启用插件',
-                    'Use this application\'s own users database' => '使用这个应用程序的用户数据库
-',
-                    'Hide the logout option' => '隐藏注销选项
-',
-                    'Logout URL' => '注销网址
-',
-                    'Sync passwords to the local database' => '将密码同步到本地数据库
-',
-                    'Allows the users to login even after the third-party authentication system is not active or enabled. The passwords are stored encrypted.' => '允许用户在第三方认证系统未激活或启用后登录。密码被加密存储。
-',
-                    'Automatically create and assign groups' => '自动创建和分配组
-',
-                    'Make sure you have a user account with the superuser\'s username in the third-party authentication database before disabling this option. If you lock the superuser out, you can disable the plugin by renaming its file.' => '在禁用此选项之前，请确保在第三方身份验证数据库中拥有超级用户的用户名。如果您锁定超级用户，则可以通过重命名其文件来禁用该插件。
-',
-                    'Site key' => '网站密钥
-',
-                    'Secret key' => '密钥
-',
-                    'Enable <a href="%1" target="_blank">reCAPTCHA</a>' => '启用<a href="%1" target="_blank"> reCAPTCHA </a>
-',
-                    'OAuth' => 'OAuth 的
-',
-                    'API "browser" key' => 'API“浏览器”项
-',
-                    'API key' => 'API密钥
-',
+                    'Use this application\'s own users database' => '使用这个应用程序的用户数据库',
+                    'Hide the logout option' => '隐藏注销选项',
+                    'Logout URL' => '注销网址',
+                    'Sync passwords to the local database' => '将密码同步到本地数据库',
+                    'Allows the users to login even after the third-party authentication system is not active or enabled. The passwords are stored encrypted.' => '允许用户在第三方认证系统未激活或启用后登录。密码被加密存储。',
+                    'Automatically create and assign groups' => '自动创建和分配组',
+                    'Make sure you have a user account with the superuser\'s username in the third-party authentication database before disabling this option. If you lock the superuser out, you can disable the plugin by renaming its file.' => '在禁用此选项之前，请确保在第三方身份验证数据库中拥有超级用户的用户名。如果您锁定超级用户，则可以通过重命名其文件来禁用该插件。',
+                    'Site key' => '网站密钥',
+                    'Secret key' => '密钥',
+                    'Enable <a href="%1" target="_blank">reCAPTCHA</a>' => '启用<a href="%1" target="_blank"> reCAPTCHA </a>',
+                    'OAuth' => 'OAuth 的',
+                    'API "browser" key' => 'API“浏览器”项',
+                    'API key' => 'API密钥',
                     'Google API credentials can be generated from the "<a href="%1" target="_blank">Google API Manager</a>"' => 'Google API凭据可以从“<a href="%1" target="_blank"> Google API Manager </a>”获取',
-                    'BCC' => 'BCC
-',
-                    'Specify an e-mail address where to send copies of the notifications' => '指定发送通知副本的电子邮件地址
-',
+                    'BCC' => 'BCC',
+                    'Specify an e-mail address where to send copies of the notifications' => '指定发送通知副本的电子邮件地址',
                     'Message template' => '消息模板',
                     'Subject template' => '标题模板',
                     'Force users to access via HTTPS.' => '强制用户通过HTTPS访问',
@@ -1227,15 +1200,12 @@
                     'TLS/SSL connection' => 'TLS/SSL连接',
                     'Enable pngquant support.' => '启用pngquant支持',
                     'Path of the pngquant binary' => 'pngquant的路径',
-                    'Setting this to 0 disables the versioning system.' => '将其设置为0将禁用版本控制系统
-',
+                    'Setting this to 0 disables the versioning system.' => '将其设置为0将禁用版本控制系统',
                     'The recommended value is 10.' => '建议值是10',
                     'Show online users' => '显示在线用户',
                     'After enabling this option, a section entitled "Users online" will show in the menu next time the control panel is loaded.' => '启用此选项后，下一次加载控制面板时，会在菜单中显示标题为“用户在线”的部分',
-                    'New users' => '新用户
-',
-                    'Inactivity timeout' => '超时时间
-',
+                    'New users' => '新用户',
+                    'Inactivity timeout' => '超时时间',
                     'The user is automatically logged out after this defined number of minutes of inactivity.' => '在规定的非活动分钟数之后，用户会自动注销',
                     'The recommended value is 30.' => '建议值是30',
                     'Security' => '安全',
@@ -1248,44 +1218,32 @@
                     'Exclude files by extension' => '通过扩展排除文件',
                     'Path to Apache Tika jar file' => 'Apache Tika jar文件的路径',
                     'Stats' => '统计',
-                    'Number of indexed files' => '索引文件的数量
-',
-                    'Number of queued operations' => '排队操作的数量
-',
+                    'Number of indexed files' => '索引文件的数量',
+                    'Number of queued operations' => '排队操作的数量',
                     'Port number' => '端口号',
-                    'Apache Tika server hostname' => 'Apache Tika服务器主机名
-',
+                    'Apache Tika server hostname' => 'Apache Tika服务器主机名',
                     'Test server' => '测试服务器',
-                    'The default Apache Tika port is %1' => '默认的Apache Tika端口是％1
-',
-                    'If a hostname is set, then Apache Tika will be used in server mode.' => '如果设置了主机名，那么Apache Tika将在服务器模式下使用。
-',
-                    'Set a number between 70 and 100, representing the quota usage percentage.' => '设置70到100之间的数字，表示配额使用百分比。
-',
+                    'The default Apache Tika port is %1' => '默认的Apache Tika端口是％1',
+                    'If a hostname is set, then Apache Tika will be used in server mode.' => '如果设置了主机名，那么Apache Tika将在服务器模式下使用。',
+                    'Set a number between 70 and 100, representing the quota usage percentage.' => '设置70到100之间的数字，表示配额使用百分比。',
                     'Enable maintenance mode' => '启用维护模式',
                     'Use Gravatar.com for users profile images.' => '使用 Gravatar.com 作为用户的头像',
                     'Check path' => '检查路径',
                     'Allow local user accounts to login' => '允许本地账户登录',
                     'Role' => '用户类型',
-                    'IP address limitation' => 'IP地址限制
-',
+                    'IP address limitation' => 'IP地址限制',
                     'Example:' => '例如:',
                     'Enable the authentication plugin only for users using certain IP addresses.' => '仅对使用特定IP地址的用户启用认证插件',
-                    'There are three possible formats that can be used:' => '有三种可能的格式可以使用：
-',
-                    '1. Wildcard format: 1.2.3.*' => '1.通配符格式：1.2.3。*
-',
-                    '2. CIDR format: 1.2.3/24 OR 1.2.3.4/255.255.255.0' => '2. CIDR格式：1.2.3 / 24或1.2.3.4/255.255.255.0
-',
-                    '3. Start-End IP format: 1.2.3.0-1.2.3.255' => '3.起始IP地址格式：1.2.3.0-1.2.3.255
-',
+                    'There are three possible formats that can be used:' => '有三种可能的格式可以使用：',
+                    '1. Wildcard format: 1.2.3.*' => '1.通配符格式：1.2.3。*',
+                    '2. CIDR format: 1.2.3/24 OR 1.2.3.4/255.255.255.0' => '2. CIDR格式：1.2.3 / 24或1.2.3.4/255.255.255.0',
+                    '3. Start-End IP format: 1.2.3.0-1.2.3.255' => '3.起始IP地址格式：1.2.3.0-1.2.3.255',
                     'It does not work with the "%1" option enabled.' => '它不适用于启用“%1”选项。',
                     'Disable plugin' => '禁用插件',
                     'Edit plugin: %1' => '编辑插件：%1',
                     'Plugin settings' => '插件设置',
                     'Read more about this <a href="%1" target="_blank">here</a>.' => '阅读更多有关<a href="%1" target="_blank">此处</a>的信息',
-                    'Files without extension' => '没有扩展名的文件
-',
+                    'Files without extension' => '没有扩展名的文件',
                     'Get it from %1' => '从%1获取',
                     'Get them from %1' => '从%1中获取它们',
                     'Page background' => '登录界面背景图片 URL',
@@ -1293,22 +1251,15 @@
                     'For a background color type in a hexadecimal value, for example #EC6952' => '对于十六进制值的背景颜色类型，例如＃EC6952',
                     'Help URL' => '帮助页面 URL',
                     'URL of your help and support page' => '你的帮助和支持页面的 URL',
-                    'Google Static Maps API' => 'Google Static Maps API
-',
-                    'Google Maps APIs - Static Maps API' => 'Google Maps API - 静态地图API
-',
-                    'Tracker codes' => '跟踪代码
-',
+                    'Google Static Maps API' => 'Google Static Maps API',
+                    'Google Maps APIs - Static Maps API' => 'Google Maps API - 静态地图API',
+                    'Tracker codes' => '跟踪代码',
                     'Paste here your traffic analysis tracking HTML code' => '在这里粘贴您的流量分析跟踪HTML代码',
-                    'Enable download accelerator' => '启用下载加速器
-',
+                    'Enable download accelerator' => '启用下载加速器',
                     '- None -' => '- 没有 -',
-                    'NGINX X-Accell' => 'NGINX X-Accell
-',
-                    'Apache XSendfile' => 'Apache XSendfile
-',
-                    'LiteSpeed Internal Redirect' => 'LiteSpeed内部重定向
-',
+                    'NGINX X-Accell' => 'NGINX X-Accell',
+                    'Apache XSendfile' => 'Apache XSendfile',
+                    'LiteSpeed Internal Redirect' => 'LiteSpeed内部重定向',
                     'Select the appropriate option for your particular web server.' => '为特定的Web服务器选择适当的选项',
                     'Note that only the downloading of really large files will benefit from this option.' => '请注意，只有下载非常大的文件才能从此选项中受益',
                     'If in doubt select "- None -".' => '如果有疑问，请选择“ - 无 - ”',
@@ -1339,7 +1290,7 @@
                     'List users' => '用户列表',
                 ),
             'Admin: Users' =>
-                array(
+                array (
                     'Date Format: Registration date' => 'd M Y',
                     'Date Format: Last login' => 'Y-M-d, H:i',
                     'Date Format: Expiration date' => 'Y-M-d',
@@ -1520,8 +1471,7 @@
                     'Folder already exists.' => '文件夹已存在.',
                     'The URL has been copied to clipboard.' => '该URL已复制到剪贴板。',
                     'User can make changes to files and folders' => '用户可以更改文件和文件夹',
-                    'User can upload files and folders' => '  
-用户可以上传文件和文件夹',
+                    'User can upload files and folders' => '用户可以上传文件和文件夹',
                     'Path' => '路径',
                     'Access' => '访问',
                     'Share' => '分享',
@@ -1534,7 +1484,7 @@
                     'As an example path, this app is located at %1' => '作为示例路径，此应用程序位于%1',
                 ),
             'Admin: Groups' =>
-                array(
+                array (
                     'You are not allowed to delete groups.' => '您无权删除群组.',
                     'You are not allowed to manage user groups.' => '您无权管理用户组.',
                     'You are not allowed to manage this group.' => '您无权管理此群组.',
@@ -1565,7 +1515,7 @@
                     'Group successfully updated!' => '群组更新成功!',
                 ),
             'Admin: Notifications' =>
-                array(
+                array (
                     'Notifications' => '通知',
                     'Notification rule added.' => '通知角色添加成功.',
                     'Failed to add notification!' => '通知角色添加失败!',
@@ -1674,13 +1624,11 @@
                     'Star removed' => '移除收藏',
                     'Trash emptied' => '清空回收站',
                     'Failed to empty trash' => '清空回收站失败',
-                    'Label received' => '收到标签
-',
+                    'Label received' => '收到标签',
                     'Download failed' => '下载失败',
                     'Notification rule successfully deleted!' => '通知规则已成功删除',
                     'Folder received (via copy)' => '收到文件夹（通过复制）',
-                    'Folder received (via move)' => '收到文件夹（通过移动）
-',
+                    'Folder received (via move)' => '收到文件夹（通过移动）',
                     'File shared' => '文件共享',
                     'File unshared' => '文件未共享',
                     'New shared file available' => '新的共享文件可用',
@@ -1688,7 +1636,7 @@
                     'Guest account created' => '来宾帐户已创建',
                 ),
             'Admin: Logs' =>
-                array(
+                array (
                     'Date Format: Grid - Date' => 'Y-m-d H:i',
                     'Activity logs' => '活动日志',
                     'Toggle search options' => '搜索选项',
@@ -1715,7 +1663,7 @@
                     'Export' => '导出',
                 ),
             'Admin: Metadata' =>
-                array(
+                array (
                     'You cannot delete this file type.' => '您不能删除此文件类型',
                     'Metadata' => '元数据',
                     'Manage the different types of information that can be associated with classes of files.' => '管理各种与文件关联的类型信息.',
@@ -1723,7 +1671,7 @@
                     'Fieldsets' => '属性列',
                 ),
             'Admin: Metadata: Filetypes' =>
-                array(
+                array (
                     'Comma separated list of file types that should automatically use this file type.' => '逗号分隔的文件类型列表，应自动使用此文件类型',
                     'File type' => '文件类型',
                     'File types' => '文件类型',
@@ -1747,20 +1695,16 @@
                     'Name' => '名称',
                     'Created by' => '创建者',
                     'File type name' => '文件类型名称',
-                    'File extensions' => '文件扩展名
-',
+                    'File extensions' => '文件扩展名',
                     'Comma separated list of file extensions that should automatically use this file type.' => '逗号分隔的应该自动使用这个文件类型的文件扩展名列表',
-                    'Automatic source' => '自动来源
-',
+                    'Automatic source' => '自动来源',
                     'This is the path to the "Media Info" field.' => '这是“媒体信息”字段的路径',
-                    'File count' => '文件数量
-',
+                    'File count' => '文件数量',
                 ),
             'Admin: Metadata: Fieldsets' =>
-                array(
+                array (
                     'Fieldset successfully deleted!' => '属性列删除失败!',
-                    'Add Field Set' => '添加字段集
-',
+                    'Add Field Set' => '添加字段集',
                     'Please type a name for the field set!' => '请输入属性列名称!',
                     'Field set name already in use. Please choose another one.' => '属性列名称已存在，请使用其他名称.',
                     'Failed to edit field set!' => '属性列编辑失败!',
@@ -1787,7 +1731,7 @@
                     'Add' => '新建',
                 ),
             'Admin: Metadata: Fields' =>
-                array(
+                array (
                     'Fields' => '属性列',
                     'Add Field' => '创建',
                     'Edit Field' => '编辑',
@@ -1811,20 +1755,15 @@
                     'Please confirm field deletion.' => '请确认属性删除.',
                     'Sort' => '分类',
                     'Set a number to define the field\'s sorting position.' => '设置一个数字以定义字段的排序位置',
-                    'Field type' => '属性类型
-',
-                    'Normal text' => '普通文本
-',
-                    'Large text' => '大文本
-',
-                    'Predefined list' => '预定义列表
-',
-                    'Multiple values' => '多个值
-',
+                    'Field type' => '属性类型',
+                    'Normal text' => '普通文本',
+                    'Large text' => '大文本',
+                    'Predefined list' => '预定义列表',
+                    'Multiple values' => '多个值',
                     'Date/time' => '日期/时间',
                 ),
             'Admin: Licensing' =>
-                array(
+                array (
                     'Software licensing' => '软件许可信息',
                     'You are using <b>%1 user accounts</b> out of <b>%2</b>.' => '您已经创建<b>%1个用户</b>，授权共许可<b>%2个用户</b>。',
                     'Update' => '更新',
@@ -1840,7 +1779,7 @@
                     'An e-mail message has been now sent to you.' => '一封邮件已发送至你的 E-mail 邮箱',
                 ),
             'Admin: Software update' =>
-                array(
+                array (
                     'Software update' => '软件升级',
                     'Step 1:' => '第1步:',
                     'Check for updates' => '检查更新',
@@ -1862,7 +1801,7 @@
                     'Upload failed: %1' => '上传失败: %1',
                 ),
             'Admin: Roles' =>
-                array(
+                array (
                     'Add a new user role.' => '添加新用户角色',
                     'Create role' => '创建角色',
                     'Role name' => '角色名称',
@@ -1895,7 +1834,7 @@
                     'Path template' => '路径模板',
                 ),
             'Admin: WebLinks' =>
-                array(
+                array (
                     'Path' => '路径',
                     'User' => '用户',
                     'Expires' => '有效期',
@@ -1904,7 +1843,7 @@
                     'Created' => '创建日期',
                 ),
             'Admin: Tools' =>
-                array(
+                array (
                     'Name' => '姓名',
                     'Username' => '用户名',
                     'Quota' => '配额',
@@ -1916,7 +1855,7 @@
                     'Id' => '序号',
                 ),
             'Admin: Tools: Import Users' =>
-                array(
+                array (
                     'Comma' => '逗号',
                     'Semicolon' => '分号',
                     'Tab' => '制表键',
@@ -1954,63 +1893,42 @@
                     'Record %1: The password is missing! The record was skipped.' => '记录%1：查找密码失败，该记录被跳过。',
                     'Record %1: The username "%2" is already in use! The record was skipped.' => '记录%1：用户名"%2"已经存在，该记录被跳过。',
                     'Record %1: User "%2" has been added. Password: %3' => '记录%1：用户“%2”已经被添加',
-                    'Passwords are in clear text' => '密码是明文
-',
+                    'Passwords are in clear text' => '密码是明文',
                     'Enable this option if the passwords stored in your CSV files are not encrypted.' => '如果存储在CSV文件中的密码未加密，请启用此选项',
-                    'Record number' => '记录编号
-',
-                    'Username/E-mail' => '用户名/电子邮件
-',
-                    'Send a notification now' => '现在发送通知
-',
+                    'Record number' => '记录编号',
+                    'Username/E-mail' => '用户名/电子邮件',
+                    'Send a notification now' => '现在发送通知',
                     'An e-mail message with the login information will be sent to the user\'s address.' => '包含登录信息的电子邮件将被发送到用户的地址',
                     'The CSV file needs to contain at least two columns, for username and name.' => '对于用户名和名称，CSV文件至少需要包含两列。',
                     'You will be asked to map the fields, so the names and the order of the columns are not important.' => '系统将要求您映射字段，因此列的名称和顺序并不重要。',
                 ),
             'Metadata: Custom' =>
-                array(
+                array (
                     'Image proprieties' => '图像的规范',
-                    'Audio proprieties' => '音频属性
-',
-                    'Height' => '高度
-',
-                    'Width' => '宽度
-',
+                    'Audio proprieties' => '音频属性',
+                    'Height' => '高度',
+                    'Width' => '宽度',
                     'Codec' => '解码器',
-                    'Duration' => '持续时间
-',
-                    'Various information' => '各种信息
-',
+                    'Duration' => '持续时间',
+                    'Various information' => '各种信息',
                     'Author' => '作者',
-                    'Description' => '描述
-',
-                    'Caption' => '标题
-',
-                    'Copyright' => '版权
-',
-                    'GPS latitude' => 'GPS纬度
-',
-                    'GPS longitude' => 'GPS经度
-',
-                    'Movie title' => '电影标题
-',
-                    'Subject' => '学科
-',
-                    'Album' => '专辑
-',
-                    'Artist' => '艺术家
-',
-                    'Title' => '标题
-',
+                    'Description' => '描述',
+                    'Caption' => '标题',
+                    'Copyright' => '版权',
+                    'GPS latitude' => 'GPS纬度',
+                    'GPS longitude' => 'GPS经度',
+                    'Movie title' => '电影标题',
+                    'Subject' => '学科',
+                    'Album' => '专辑',
+                    'Artist' => '艺术家',
+                    'Title' => '标题',
                     'Location' => '位置',
                     'Tags' => '标签',
-                    'Date Created' => '创建日期
-',
-                    'Rating' => '评分
-',
+                    'Date Created' => '创建日期',
+                    'Rating' => '评分',
                 ),
             'Labels' =>
-                array(
+                array (
                     'APPROVED' => '已批准',
                     'PENDING' => '待定中',
                     'REJECTED' => '已拒绝',
@@ -2022,12 +1940,11 @@
                     'Labels successfully removed from %1 files' => '%1 个文件的标记被成功移除',
                 ),
             'Custom Actions: MediaInfo' =>
-                array(
-                    'Media Info' => '媒体信息
-',
+                array (
+                    'Media Info' => '媒体信息',
                 ),
             'Stars' =>
-                array(
+                array (
                     'You are not allowed to set stars!' => '你无权设置收藏',
                     'No stars were added' => '没有收藏被添加',
                     'Star successfully added' => '收藏已成功添加',
@@ -2037,56 +1954,40 @@
                     '%1 stars successfully removed' => '%1 个收藏已成功移除',
                 ),
             'Admin: Tools: Export Users' =>
-                array(
+                array (
                     'Export' => '导出',
                 ),
             'Admin: API' =>
-                array(
+                array (
                     'Name' => '名称',
-                    'Client/App name' => '客户/应用程序名称
-',
+                    'Client/App name' => '客户/应用程序名称',
                     'Publisher' => '开发者',
-                    'Client ID' => '客户端ID
-',
-                    'Client secret' => '客户密码
-',
-                    'Authorized redirect URIs' => '授权重定向URI
-',
-                    'One URI per line' => '每行一个URI
-',
+                    'Client ID' => '客户端ID',
+                    'Client secret' => '客户密码',
+                    'Authorized redirect URIs' => '授权重定向URI',
+                    'One URI per line' => '每行一个URI',
                     'Needs to start with "https://".' => '需要以“https://”开头。',
                     '"http://" only allowed for "localhost".' => '“http://”只允许“localhost”。',
-                    'No URL fragments, and no relative paths.' => '没有URL片段，也没有相对路径。
-',
-                    'Can\'t be a non-private IP Address.' => '不能是非私人IP地址。
-',
+                    'No URL fragments, and no relative paths.' => '没有URL片段，也没有相对路径。',
+                    'Can\'t be a non-private IP Address.' => '不能是非私人IP地址。',
                     'Website' => '网站',
-                    'Description' => '描述
-',
-                    'Oauth2 client successfully added' => 'Oauth2客户端成功添加
-',
+                    'Description' => '描述',
+                    'Oauth2 client successfully added' => 'Oauth2客户端成功添加',
                     'Failed to add client!' => '无法添加客户端',
-                    'One of the provided URIs is not valid' => '提供的URI之一是无效的
-',
-                    'Oauth2 client successfully updated' => 'Oauth2客户端已成功更新
-',
+                    'One of the provided URIs is not valid' => '提供的URI之一是无效的',
+                    'Oauth2 client successfully updated' => 'Oauth2客户端已成功更新',
                     'Failed to save changes!' => '无法保存更改',
                     'Client not found!' => '未找到客户端',
-                    'Oauth2 client successfully deleted' => 'Oauth2客户端成功删除
-',
+                    'Oauth2 client successfully deleted' => 'Oauth2客户端成功删除',
                     'Failed to delete client!' => '无法删除客户端',
                     'Requires a HTTPS-configured web server' => '需要HTTPS配置的Web服务器',
-                    'Logo URL' => '徽标网址
-',
-                    'App website' => 'App网站
-',
-                    'Enable API' => '启用API
-',
-                    'OAuth2 requires that you access this website via HTTPS' => 'OAuth2要求您通过HTTPS访问本网站
-',
+                    'Logo URL' => '徽标网址',
+                    'App website' => 'App网站',
+                    'Enable API' => '启用API',
+                    'OAuth2 requires that you access this website via HTTPS' => 'OAuth2要求您通过HTTPS访问本网站',
                 ),
             'OAuth2' =>
-                array(
+                array (
                     'OAuth2 Consent' => 'OAuth2 授权',
                     'List files and folders in your "%1" account.' => '在您的“％1”帐户中列出文件和文件夹',
                     'List files and folders inside your "Apps/%1" folder.' => '列出“Apps /％1”文件夹中的文件和文件夹',
@@ -2134,7 +2035,7 @@
                     'View your e-mail address, although your account currently doesn\'t have one set.' => '查看您的电子邮件地址，虽然您的帐户目前没有一套',
                 ),
             'Custom Actions: Google Editor' =>
-                array(
+                array (
                     'Read the <a href="%1" target="_blank">configuration guide</a>.' => '阅读<a href="%1" target="_blank">配置指南</a>。',
                     'OAuth Client Secret' => 'OAuth客户端密钥',
                     'OAuth Client ID' => 'OAuth客户端ID',
@@ -2146,7 +2047,7 @@
                     'Document with Google' => '与Google合作',
                 ),
             'Notifications' =>
-                array(
+                array (
                     '<strong>%1</strong>, from %3, downloaded the file <strong>%2</strong>".' => '从%3开始，<strong>%1 </ strong>下载了<strong>%2 </ strong>文件',
                     'Your file "%1" was downloaded through the shared link.' => '您的文件“%1”是通过共享链接下载的',
                     'From the IP address: %1' => '从IP地址：%1',
@@ -2201,44 +2102,26 @@
                     'The file "<strong>%2</strong>" was uploaded thorugh the web link created by user "<strong>%1</strong>".' => '文件"<strong>%2</strong>" 是通过用户"<strong>%1</strong>"创建的网络链接上传的',
                 ),
             'Admin: Plugins' =>
-                array(
-                    'Raw image files' => '原始图像文件
-',
-                    'Files without extension' => '没有扩展名的文件
-',
-                    'Image files' => '图像文件
-',
-                    'Archive files' => '存档文件
-',
-                    'Video files' => '视频文件
-',
-                    'Web-playable video files' => '网络播放的视频文件
-',
-                    'Audio files' => '音频文件
-',
-                    'Web-playable audio files' => '网络播放的音频文件
-',
-                    'AutoCAD projects' => 'AutoCAD项目
-',
-                    'OpenOffice documents' => 'OpenOffice文档
-',
-                    'Microsoft Office documents' => 'Microsoft Office文档
-',
-                    'Plain text files' => '纯文本文件
-',
-                    'Edit default viewer' => '编辑默认查看器
-',
-                    'Add default viewer' => '添加默认查看器
-',
-                    'File type' => '文件类型
-',
-                    'File extension' => '文件扩展名
-',
-                    'File extensions' => '文件扩展名
-',
+                array (
+                    'Raw image files' => '原始图像文件',
+                    'Files without extension' => '没有扩展名的文件',
+                    'Image files' => '图像文件',
+                    'Archive files' => '存档文件',
+                    'Video files' => '视频文件',
+                    'Web-playable video files' => '网络播放的视频文件',
+                    'Audio files' => '音频文件',
+                    'Web-playable audio files' => '网络播放的音频文件',
+                    'AutoCAD projects' => 'AutoCAD项目',
+                    'OpenOffice documents' => 'OpenOffice文档',
+                    'Microsoft Office documents' => 'Microsoft Office文档',
+                    'Plain text files' => '纯文本文件',
+                    'Edit default viewer' => '编辑默认查看器',
+                    'Add default viewer' => '添加默认查看器',
+                    'File type' => '文件类型',
+                    'File extension' => '文件扩展名',
+                    'File extensions' => '文件扩展名',
                     'Open with' => '打开方式',
-                    'Please select a file type or type an extension.' => '请选择一个文件类型或输入一个扩展名
-',
+                    'Please select a file type or type an extension.' => '请选择一个文件类型或输入一个扩展名',
                     'The "%1" extension already has a default viewer assigned.' => '“%1”扩展程序已经分配了一个默认查看器',
                     'The selected file type is already assigned.' => '所选文件类型已被分配',
                     'Changes successfully saved.' => '更改已成功保存',
@@ -2248,7 +2131,7 @@
                     '- None Selected -' => '- 没有选择 -',
                 ),
             'Custom Actions: Audio Player' =>
-                array(
+                array (
                     'Audio Player' => '音频播放器',
                     'Select' => '选择',
                     'Loading audio player...' => '加载音频播放器......',
@@ -2259,19 +2142,19 @@
                     'Shuffle' => '拖曳',
                 ),
             'Custom Actions: Archive Explorer' =>
-                array(
+                array (
                     'Archive Explorer' => '归档浏览器',
                 ),
             'Custom Actions: Video Player' =>
-                array(
+                array (
                     'Video Player' => '视频播放器',
                 ),
             'Custom Actions: Image Viewer' =>
-                array(
+                array (
                     'Image Viewer' => '图像查看器',
                 ),
             'Custom Actions: ONLYOFFICE' =>
-                array(
+                array (
                     'Download and install %1' => '下载并安装 %1',
                     'DocumentServer URL' => 'ONLYOFFICE服务器URL',
                     'Document with ONLYOFFICE' => '文件与ONLYOFFICE',
@@ -2286,34 +2169,30 @@
                     'Blank file created successfully' => '空白文件已成功创建',
                 ),
             'Custom Actions: Zamzar' =>
-                array(
+                array (
                     'API key' => 'API密钥',
                 ),
             'Custom Actions: Autodesk' =>
-                array(
-                    'API client ID' => 'API客户端ID
-',
-                    'API client secret' => 'API客户端密钥
-',
+                array (
+                    'API client ID' => 'API客户端ID',
+                    'API client secret' => 'API客户端密钥',
                 ),
             'Custom Actions: Google Earth' =>
-                array(
+                array (
                     'Google Maps' => '谷歌地图',
                 ),
             'Custom Actions' =>
-                array(
-                    'New tab' => '新标签
-',
+                array (
+                    'New tab' => '新标签',
                 ),
             'Custom Actions: E-book Reader' =>
-                array(
-                    'E-book Reader' => '电子书阅读器
-',
+                array (
+                    'E-book Reader' => '电子书阅读器',
                     'Menu' => '菜单',
                     'Fullscreen' => '全屏',
                 ),
             'Metadata: Indexing' =>
-                array(
+                array (
                     'Please note that this will import metadata from the files and can overwrite metadata which you have manually added.' => '请注意，这将从文件中导入元数据，并可以覆盖手动添加的元数据',
                     'Collecting file list...' => '正在获取文件列表...',
                     '%1 files found' => '找到%1个文件',
@@ -2327,20 +2206,20 @@
                     'Close' => '关闭',
                 ),
             'Custom Actions: Photo Proof Sheet' =>
-                array(
+                array (
                     'Create photo proof sheet' => '创建照片校样页',
                     'Photo proof sheet successfully created in your home folder.' => '在您的主文件夹中成功创建了照片校样页。',
                 ),
             'Custom Actions: Bing Maps' =>
-                array(
+                array (
                     'Bing Maps API Key' => 'Bing地图API密钥',
                 ),
             'Admin: Guest Users' =>
-                array(
+                array (
                     'Enable guest user accounts' => '启用访客用户帐户',
                 ),
             'Custom Actions: HTML Editor' =>
-                array(
+                array (
                     'HTML Editor' => 'HTML编辑器',
                     'Save' => '保存',
                     'Save and close' => '保存并关闭',
