@@ -1561,11 +1561,10 @@
                     'Port number' => '端口号',
                     'OCR PDF files' => '启用PDF文件OCR功能',
                     'Requires Tesseract to be installed on the server.' => '需要在服务器上安装 Tesseract',
-                    'OCR images files' => '启用图片文件OCR功能',
+                    'OCR image files' => '启用图片文件OCR功能',
                     'Requires Apache Tika and Tesseract.' => '需要 Apache Tika 和 Tesseract',
                     'Exclude files by extension' => '通过扩展排除文件',
                     'Number of queued operations' => '排队操作的数量',
-
                     'User Login' => '用户登录',
                     'User Registration' => '用户注册',
                     'These settings are not available when using a third-part authentication plugin.' => '当使用第三方验证插件时, 这些设置将不起作用',
@@ -1711,7 +1710,6 @@
                     'I confirm' => '我确定',
                     'Guest users' => '访客用户',
                     'Custom' => '习惯',
-                 
                     'Enabling this will allow access to the users that do not have an account with the third-party system.' => '启用此选项将允许没有帐户的第三方系统用户访问。',
                     'List users' => '用户列表',
                 ),
