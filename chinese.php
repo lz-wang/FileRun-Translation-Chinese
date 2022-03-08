@@ -1104,14 +1104,6 @@
                 ),
             'Admin: Setup' =>
                 array (
-                    'Application title' => '应用标题',
-                    'Registered installs only' => '仅限注册安装用户',
-                    'Enterprise version only' => '仅限企业版',
-                    'Use title as logo (Registered installs only)' => '使用标题作为LOGO (仅限注册安装用户)',
-                    'Enable (Registered installs only)' => '启用 (仅限注册安装用户)',
-                    'Logo URL' => '网站LOGO网址',
-                    'Browser favicons' => '网站图标',
-                    'Welcome message' => '欢迎消息',
                     'Default' => '默认',
                     'Enabled' => '启用',
                     'Set a number between 1 and 99, representing the quota usage percentage.' => '设置一个 1 到 99 之间的数, 用来表示配额的百分比',
@@ -1150,7 +1142,34 @@
                     'Download all' => '下载全部',
                     'Hide option' => '隐藏此选项',
                     // ====================================================================================
-
+                    // Branding options
+                    'Branding options' => '品牌选项',
+                    'Login page' => '登录页面',
+                    'Title' => '页面标题',
+                    'Logo URL' => 'LOGO网址',
+                    'Registered installs only' => '仅限注册安装用户',
+                    'Page background' => '背景图片',
+                    'For a background image type in a full URL.' => '在完整的URL中输入背景图片',
+                    'For a background color type in a hexadecimal value, for example %1' => '对于十六进制值的背景颜色类型, 例如#EC6952',
+                    'Welcome message' => '欢迎消息',
+                    'Enterprise version only' => '仅限企业版',
+                    'Application title' => '应用标题',
+                    'Use title as logo (Registered installs only)' => '使用标题作为LOGO (仅限注册安装用户)',
+                    'Browser favicons' => '网站图标',
+                    'Enable (Registered installs only)' => '启用 (仅限注册安装用户)',
+                    'Help URL' => '帮助页面 URL',
+                    'URL of your help and support page' => '你的帮助和支持页面的 URL',
+                    'Color theme' => '颜色主题',
+                    'Purple' => '紫色',
+                    'Blue' => '蓝色',
+                    'Green' => '绿色',
+                    'Red' => '红色',
+                    'Blank' => '灰色',
+                    'Dark' => '暗色',
+                    'Google Drive' => '谷歌云盘',
+                    'Microsoft OneDrive' => '微软OneDrive',
+                    'Corporate' => 'Corporate',
+                    // ====================================================================================
                     'User Login' => '用户登录',
                     'User Registration' => '用户注册',
                     'These settings are not available when using a third-part authentication plugin.' => '当使用第三方验证插件时, 这些设置将不起作用',
@@ -1212,7 +1231,6 @@
                     'Enable pngquant support.' => '启用 pngquant 支持',
                     'Path of the pngquant binary' => 'pngquant 可执行文件路径',
                     // ====================================================================================
-
                     'Use a SMTP server.' => '使用SMTP服务器',
                     'SMTP server' => 'SMTP服务器',
                     'SMTP requires authentication.' => 'SMTP需要身份验证.',
@@ -1241,7 +1259,6 @@
                     'Force users to change their passwords after reset.' => '强制用户在重置密码后修改新密码。',
                     'Example list:' => '示例:',
                     'Settings saved' => '设置已保存',
-                    'Title' => '登录界面标题',
                     'Blocked file types' => '阻止的文件类型',
                     'User Logout' => '用户登出',
                     'Enable <a href="http://en.wikipedia.org/wiki/CAPTCHA" target="_blank">CAPTCHA</a>.' => '启用<a href="http://en.wikipedia.org/wiki/CAPTCHA" target="_blank">CAPTCHA</a>.',
@@ -1356,11 +1373,7 @@
                     'Files without extension' => '没有扩展名的文件',
                     'Get it from %1' => '从%1获取',
                     'Get them from %1' => '从%1中获取它们',
-                    'Page background' => '登录界面背景图片 URL',
-                    'For a background image type in a full URL.' => '在完整的URL中输入背景图片',
-                    'For a background color type in a hexadecimal value, for example %1' => '对于十六进制值的背景颜色类型, 例如＃EC6952',
-                    'Help URL' => '帮助页面 URL',
-                    'URL of your help and support page' => '你的帮助和支持页面的 URL',
+
                     'Google Static Maps API' => 'Google Static Maps API',
                     'Google Maps APIs - Static Maps API' => 'Google Maps API - 静态地图API',
                     'Tracker codes' => '跟踪代码',
@@ -1379,14 +1392,7 @@
                     'Phone' => '电话',
                     'I confirm' => '我确定',
                     'Guest users' => '访客用户',
-                    // Branding options
-                    'Branding options' => '品牌选项',
-                    'Branding' => '品牌',
-                    'Login page' => '登录页面',
-                    'Color theme' => '颜色主题',
-                    'Blue' => '蓝色',
-                    'Green' => '绿色',
-                    'Red' => '红',
+
                     'Custom' => '习惯',
                     'The default value is "Broad match".' => '默认值为"模糊匹配"。',
                     'If searching becomes slow, it is recommeneded to use the "Exact match" instead.' => '如果搜索变慢, 建议使用"精确匹配"。',
@@ -1397,10 +1403,6 @@
                     'Enabling this will allow access to the users that do not have an account with the third-party system.' => '启用此选项将允许没有帐户的第三方系统用户访问。',
                     'List users' => '用户列表',
                 ),
-            // 'Admin: Interface' =>
-            //     array (
-            //         'Interface options' => '界面选项',
-            //     ),
             'Admin: Users' =>
                 array (
                     'Date Format: Registration date' => 'd M Y',
