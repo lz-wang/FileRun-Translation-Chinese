@@ -1053,7 +1053,6 @@
                     'Previous Page' => '上一页',
                     'Refresh' => '刷新',
                     'Field sets' => '字段集',
-                    'File types' => '文件类型',
                     'Open Web Link' => '打开Web Links',
                     'Please confirm web link deletion' => '请确认删除Web Links',
                     'Add' => '新建',
@@ -1101,6 +1100,13 @@
                     'Notifications' => '通知',
                     'Add new' => '新建',
                     'Calculate all' => '计算全部',
+                    // Plugins, 'Admin: Plugins'
+                    'Plugins' => '插件',
+                    'Plugin name' => '插件名称',
+                    'Handles' => '支持文件类型',
+                    'Supports web links' => '支持网页链接?',
+                    'Default "Open with.." options' => '默认打开方式选项',
+
                 ),
             'Admin: Users' =>
                 array (
@@ -2236,6 +2242,9 @@
                     'File extension' => '文件扩展名',
                     'File extensions' => '文件扩展名',
                     'Preview with' => '打开方式',
+                    'Edit with' => '编辑方式',
+                    'Web links preview ... ' => '网页链接预览方式', // TODO: not working
+                    'Web links edit with' => '网页链接编辑方式',
                     'Please select a file type or type an extension.' => '请选择一个文件类型或输入一个扩展名',
                     'The "%1" extension already has a default viewer assigned.' => '“%1”扩展程序已经分配了一个默认查看器',
                     'The selected file type is already assigned.' => '所选文件类型已被分配',
